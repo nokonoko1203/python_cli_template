@@ -2,12 +2,20 @@
 
 ## 利用方法
 
+- `cd package`
+
+- プログラムの起動
+  - `python -m package huga`
+- テスト
+  - `python setup.py test`
+
 ```sh
 $cd package/
 $python -m package huga
 param='huga'
 SAMPLE_STATES='hogehoge'
 sample_function=Hello sample function!!!
+
 $python setup.py test
 running test
 Searching for setuptools~=49.2.1
