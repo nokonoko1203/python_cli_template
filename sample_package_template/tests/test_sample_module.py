@@ -1,6 +1,7 @@
 import unittest
 
-from package.sample_module import sample_function
+from sample_package import modules
+
 
 class TestSampleModules(unittest.TestCase):
     @classmethod
@@ -18,9 +19,10 @@ class TestSampleModules(unittest.TestCase):
         print('+ テスト後処理')
 
     def test_sample_function(self):
-        """/modules/sample_module/sample_functionのテスト
+        """sample_package/modules/sample_modules/sample_function()のテスト
         """
-        self.assertEqual("Hello sample function!!!", sample_function())
+        print('+ sample_functionをテストします')
+        self.assertEqual("Hello sample function!!!", modules.sample_function())
 
 
 if __name__ == '__main__':

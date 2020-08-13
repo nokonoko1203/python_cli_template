@@ -1,6 +1,6 @@
 import click
 
-from .sample_module import sample_function
+from .modules import sample_function
 from .setting import SAMPLE_STATES
 
 

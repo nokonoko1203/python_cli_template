@@ -2,10 +2,10 @@
 
 ## 利用方法
 
-- `cd package`
+- `cd sample_package_template`
 
 - プログラムの起動
-  - `python -m package huga`
+  - `python -m sample_package huga`
 - テスト
   - `python setup.py test`
 
