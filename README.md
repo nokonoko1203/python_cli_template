@@ -1,6 +1,6 @@
 # python_package_template
 
-## 利用方法
+## usage
 
 - `cd sample_package_template`
 
