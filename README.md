@@ -33,7 +33,7 @@ writing manifest file 'package.egg-info/SOURCES.txt'
 running build_ext
 *** 全体前処理 ***
 test_sample_function (tests.test_sample_module.TestSampleModules)
-/modules/sample_module/sample_functionのテスト ... + テスト前処理
+/utils/sample_module/sample_functionのテスト ... + テスト前処理
 + テスト後処理
 ok
 *** 全体後処理 ***

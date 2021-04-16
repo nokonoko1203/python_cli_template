@@ -19,7 +19,7 @@ class TestSampleModules(unittest.TestCase):
         print('+ テスト後処理')
 
     def test_sample_function(self):
-        """sample_package/modules/sample_modules/sample_function()のテスト
+        """sample_package/utils/sample_modules/sample_function()のテスト
         """
         print('+ sample_functionをテストします')
         self.assertEqual("Hello sample function!!!", modules.sample_function())
