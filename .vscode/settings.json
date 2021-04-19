@@ -4,7 +4,7 @@
             "source.organizeImports": true
         }
     },
-    "python.pythonPath": "/Users/satoru/.pyenv/versions/3.9.0/bin/python3.9",
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python3.9",
     "python.envFile": "${workspaceFolder}/.env",
     "python.autoComplete.extraPaths": [
         "${workspaceFolder}/.venv/lib/python3.9"
