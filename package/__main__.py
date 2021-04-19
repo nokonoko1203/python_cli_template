@@ -1,7 +1,7 @@
 import click
 
-from .utils import sample_function
 from .setting import SAMPLE_STATES
+from .utils import sample_function
 
 
 @click.command()

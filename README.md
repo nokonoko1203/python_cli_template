@@ -1,4 +1,11 @@
-# python_package_template
+# python_package_template　
+
+## setup
+
+```shell
+$ PIPENV_IGNORE_VIRTUALENVS=1
+$ PIPENV_VENV_IN_PROJECT=true pipenv install -d
+```
 
 ## usage
 
