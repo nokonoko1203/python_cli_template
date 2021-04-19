@@ -6,10 +6,11 @@ verify_ssl = true
 [dev-packages]
 autopep8 = "*"
 flake8 = "*"
+isort = "*"
 
 [packages]
 click = "*"
-isort = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.9"
