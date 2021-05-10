@@ -21,5 +21,6 @@
         "--aggressive"
     ],
     "autoDocstring.docstringFormat": "google",
-    "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort"
+    "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
+    "editor.formatOnSave": true
 }
