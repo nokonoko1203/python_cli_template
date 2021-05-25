@@ -8,7 +8,7 @@ class TestSampleModules(unittest.TestCase):
         """package/sample_modules/sample_function()のテスト
 
         """
-        print('sample_functionをテストします')
+        print('run a test of sample_function')
         self.assertEqual("Hello sample function!!!", sample_function())
 
 
