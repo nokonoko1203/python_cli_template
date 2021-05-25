@@ -1,14 +1,15 @@
 import unittest
 
-from package import utils
+from package import sample_function
 
 
 class TestSampleModules(unittest.TestCase):
     def test_sample_function(self):
-        """package/utils/sample_modules/sample_function()のテスト
+        """package/sample_modules/sample_function()のテスト
+
         """
-        print('+ sample_functionをテストします')
-        self.assertEqual("Hello sample function!!!", utils.sample_function())
+        print('sample_functionをテストします')
+        self.assertEqual("Hello sample function!!!", sample_function())
 
 
 if __name__ == '__main__':
