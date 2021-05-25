@@ -9,7 +9,6 @@ flake8 = "*"
 isort = "*"
 
 [packages]
-click = "*"
 python-dotenv = "*"
 
 [requires]
